@@ -1,0 +1,39 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local RaccoonWindow = Rayfield:CreateWindow({
+   Name = "Raccoon Hub",
+   Icon = 0,
+   LoadingTitle = "Please wait the script is Raccooning",
+   LoadingSubtitle = "By Zen สุดหล่อ",
+   Theme = "Green",
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil,
+      FileName = "Raccoon Hub"
+   },
+
+   Discord = {
+      Enabled = true,
+      Invite = "https://discord.gg/aSWnMYuj", 
+      RememberJoins = true
+   },
+
+   KeySystem = true,
+   KeySettings = {
+      Title = "pwease ewenter your awesome raccoon key",
+      Subtitle = "Key System",
+      Note = "how to get key : Be one of the raccoon fwenddss",
+      FileName = "RaccoonLover69",     
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"RaccoonLover69"} 
+   }
+})
+
+local ScriptTab = RaccoonWindow:CreateTab("Sigma Scripts😱😱😱😱😱", 5103994740) -- Title, Image
+
+
