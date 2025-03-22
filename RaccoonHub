@@ -34,6 +34,12 @@ local RaccoonWindow = Rayfield:CreateWindow({
    }
 })
 
-local ScriptTab = RaccoonWindow:CreateTab("Sigma Scripts😱😱😱😱😱", 5103994740) -- Title, Image
+local ScriptTab = RaccoonWindow:CreateTab("Raccoon Script!!1!🦝 🦝 🙏 🙏 🔥 🔥", 5103994740) -- Title, Image
 
+local Button = Tab:CreateButton({
+   Name = "Infinite Yield ",
+   Callback = function(inf)
+   inf = loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+ end,
+})
 
